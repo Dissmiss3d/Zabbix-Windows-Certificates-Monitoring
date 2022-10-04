@@ -11,16 +11,25 @@ Template'i hosta assing ettiğimizde otomatik discovery ederek item-triggerları
 İtemlar;
 
 Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" days to expire
+
 Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" expire date
+
 Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" issued by
+
 Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" issued date
+
 
 Triggerlar;
 Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" is expired	
+
 Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" is expiring today	
+
 Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" is expiring to {$WINDOWS_CERT_DAYS_TO_EXPIRE_AVERAGE} days ({ITEM.LASTVALUE1} left)	
+
 Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" is expiring to {$WINDOWS_CERT_DAYS_TO_EXPIRE_INFO} days ({ITEM.LASTVALUE1} left)
+
 Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" is expiring to {$WINDOWS_CERT_DAYS_TO_EXPIRE_WARN} days ({ITEM.LASTVALUE1} left)	
+
 
 $WINDOWS_CERT_DAYS_TO_EXPIRE_AVERAGE template içerisinde makrolardan belirlenip özelleştirilebilir.
 

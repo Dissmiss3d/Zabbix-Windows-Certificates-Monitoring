@@ -32,7 +32,7 @@ Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" is expiring to {$WINDOWS_C
 Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" is expiring to {$WINDOWS_CERT_DAYS_TO_EXPIRE_WARN} days ({ITEM.LASTVALUE1} left)	
 
 
-$WINDOWS_CERT_DAYS_TO_EXPIRE_AVERAGE template içerisinde makrolardan belirlenip özelleştirilebilir.
+$WINDOWS_CERT_DAYS_TO_EXPIRE_AVERAGE-(INFO)-(WARN) template içerisinde makrolardan belirlenip özelleştirilebilir.
 
 ![image](https://user-images.githubusercontent.com/85514498/193828763-a38fa44a-c345-4c68-b248-a4d2cbde53d9.png)
 

@@ -8,7 +8,7 @@ UserParameter=windows.certs[*],powershell -NoProfile -ExecutionPolicy Bypass -Fi
 
 Template'i hosta assing ettiğimizde otomatik discovery ederek item-triggerları oluşturuyor.
 
-İtemlar;
+##ITEMS;
 
 Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" days to expire
 
@@ -19,7 +19,8 @@ Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" issued by
 Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" issued date
 
 
-Triggerlar;
+##TRIGGERS;
+
 Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" is expired	
 
 Certificate "{#LM_CERT_CN} ({#LM_CERT_FRIENDLYNAME})" is expiring today	
